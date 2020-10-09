@@ -1,0 +1,18 @@
+@import './base/settings';
+@import './base/base';
+
+// Components
+@import './components/auth';
+@import './components/buttons';
+@import './components/links';
+@import './components/journal';
+@import './components/nothing';
+@import './components/notes';
+
+.alert__alert-error {
+	display: block;
+	padding: 10px 5px;
+	background-color: red;
+	text-align: center;
+	color: #fff;
+}
